@@ -18,7 +18,7 @@ export default function PortfolioApp() {
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage
-          href="https://miaozhaod.github.io/weatherapp/"
+          href="https://miaozhaod.github.io/portfolio/"
           src={PortfolioImg}
           alt="Portfolio APP"
         />
@@ -27,7 +27,7 @@ export default function PortfolioApp() {
             This project aims to provide a brief introduction of myself and to
             present some project I have done.
           </Paragraph>
-          <ProjectTools href="https://miaozhaod.github.io/weatherapp/">
+          <ProjectTools href="https://miaozhaod.github.io/portfolio/">
             <Tag>React</Tag>
             <Tag>React Router DOM</Tag>
             <Tag>TailwindCSS</Tag>
