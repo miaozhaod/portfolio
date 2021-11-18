@@ -9,8 +9,8 @@ import { Container, ScrollToTopButton } from "app/components";
 
 export default function Projects() {
   const projects = [
-    <GreatPhermesia />,
     <WeatherApp />,
+    <GreatPhermesia />,
     <PortfolioApp />,
     <CraftExample />,
   ];

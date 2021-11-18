@@ -2,6 +2,7 @@ import { Wrapper, Heading, List, Paragraph } from "app/components";
 import Profile from "app/assets/Profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function Banner() {
   return (
@@ -17,13 +18,13 @@ export default function Banner() {
             things.
           </Paragraph>
           <Paragraph>
+            I enjoy the process to make design alive through the development
+          </Paragraph>
+          <Paragraph>
             Please feel free to look around, or hit the &nbsp;
-            <a
-              href="mailto:miao_zhao@yahoo.com?subject = Feedback&body = Message"
-              className="text-green-500"
-            >
-              <FontAwesomeIcon icon={faEnvelope} />
-            </a>
+            <Link to="/contact">
+              <FontAwesomeIcon icon={faEnvelope} className="text-green-500" />
+            </Link>
             &nbsp; - I would be happy to hear from you and have a chat.
           </Paragraph>
         </List>
