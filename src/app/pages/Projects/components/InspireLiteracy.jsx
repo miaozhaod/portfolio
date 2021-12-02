@@ -9,7 +9,7 @@ import {
 } from "./components";
 import CraftImg from "app/assets/craft-example.png";
 
-export default function CraftExample() {
+export default function InspireLiteracy() {
   return (
     <Wrapper id="craft">
       <ProjectTitle>
@@ -33,6 +33,7 @@ export default function CraftExample() {
           </Paragraph>
           <ProjectTools href="https://inspireliteracy.com.au/">
             <Tag>CraftCMS</Tag>
+            <Tag>twig</Tag>
             <Tag>TailwindCSS</Tag>
           </ProjectTools>
         </ProjectDescription>
