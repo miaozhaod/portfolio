@@ -3,7 +3,8 @@ import {
   WeatherApp,
   PortfolioApp,
   GreatPhermesia,
-  CraftExample,
+  InspireLiteracy,
+  UxLg,
 } from "./components";
 import { Container, ScrollToTopButton } from "app/components";
 
@@ -12,7 +13,8 @@ export default function Projects() {
     <WeatherApp />,
     <GreatPhermesia />,
     <PortfolioApp />,
-    <CraftExample />,
+    <InspireLiteracy />,
+    <UxLg />,
   ];
 
   return (
