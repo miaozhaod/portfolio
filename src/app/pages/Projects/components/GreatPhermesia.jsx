@@ -21,7 +21,7 @@ export default function GreatPhermesia() {
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage
-          href="https://greatphermesia-uat.mianora.top/"
+          href="http://www.greatphermesia.com/"
           src={GreatPhermesiaImg}
           alt="Great Phermesia Forum"
         />
@@ -32,7 +32,7 @@ export default function GreatPhermesia() {
             client-side code with React functional components, managed states
             via React-redux across multiple components.
           </Paragraph>
-          <ProjectTools href="https://greatphermesia-uat.mianora.top/">
+          <ProjectTools href="http://www.greatphermesia.com/">
             <Tag>React</Tag>
             <Tag>React Hook</Tag>
             <Tag>React-redux</Tag>
