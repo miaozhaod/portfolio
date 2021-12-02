@@ -49,7 +49,7 @@ export default function Profession() {
             <Link to="/projects#craft">
               <LinkToProject>projects</LinkToProject>
             </Link>
-            through HTML and CSS based on the Craft Content Management System,
+            through twig and SCSS based on the Craft Content Management System,
             which developed my mindset in creating{" "}
             <Highlighter>re-usable modules</Highlighter> and writing readable
             codes
