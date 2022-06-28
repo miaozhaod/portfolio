@@ -1,4 +1,3 @@
-import { HashLink as Link } from "react-router-hash-link";
 import {
   SubHeading,
   Wrapper,
@@ -7,7 +6,7 @@ import {
   ListItem,
   Highlighter,
 } from "app/components";
-import { Title, Details, LinkToProject } from "./components";
+import { Title, Details } from "./components";
 
 export default function Profession() {
   return (
@@ -19,40 +18,25 @@ export default function Profession() {
         <List>
           <ListCategory>WHO I AM</ListCategory>
           <ListItem>
-            I see myself as a <Highlighter>junior-level</Highlighter> web
-            developer with a focus on front-end at this stage
+            I see myself as a <Highlighter>junior</Highlighter> full-stack
+            developer with a focus on front-end at the moment
+          </ListItem>
+          <ListCategory>WHAT I CAN DO</ListCategory>
+          <ListItem>
+            I worked on most of my front-end web projects through{" "}
+            <Highlighter>ReactJS, NextJs</Highlighter>
           </ListItem>
           <ListItem>
-            I am <Highlighter>growing</Highlighter> myself into a professional
-            full-stack web developer
-          </ListItem>
-          <ListCategory>WHAT I AM DOING</ListCategory>
-          <ListItem>
-            I am honing my skills in <Highlighter>React and NodeJS</Highlighter>{" "}
-            by doing some side{" "}
-            <Link to="/projects#react">
-              <LinkToProject>projects</LinkToProject>
-            </Link>
+            I am growing my skills in the backend by working on some
+            side-projects in <Highlighter>NodeJS, NestJS</Highlighter>,
           </ListItem>
           <ListItem>
-            I am broadening my tech stack by exploring more technologies, like
-            cloud services - AWS Amplify / Route 53 / API Gateway / Lambda
-          </ListItem>
-          <ListCategory>WHAT I DID BEFORE</ListCategory>
-          <ListItem>
-            I have a two-year background in{" "}
-            <Highlighter>User Experience Research</Highlighter>, which
-            challenges me to always keep users in mind when creating things
+            I am constantly exploring new technologies, recently I'm looking
+            into <Highlighter>serverless</Highlighter>.
           </ListItem>
           <ListItem>
-            I delivered several web{" "}
-            <Link to="/projects#craft">
-              <LinkToProject>projects</LinkToProject>
-            </Link>
-            through twig and SCSS based on the Craft Content Management System,
-            which developed my mindset in creating{" "}
-            <Highlighter>re-usable modules</Highlighter> and writing readable
-            codes
+            I have a three-year background in <Highlighter>UX</Highlighter>,
+            which challenges me to always keep users centred
           </ListItem>
         </List>
       </Details>
