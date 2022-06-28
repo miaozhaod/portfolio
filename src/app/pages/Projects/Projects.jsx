@@ -5,13 +5,15 @@ import {
   GreatPhermesia,
   InspireLiteracy,
   UxLg,
+  AComosus,
 } from "./components";
 import { Container, ScrollToTopButton } from "app/components";
 
 export default function Projects() {
   const projects = [
-    <WeatherApp />,
+    <AComosus />,
     <GreatPhermesia />,
+    <WeatherApp />,
     <PortfolioApp />,
     <InspireLiteracy />,
     <UxLg />,
