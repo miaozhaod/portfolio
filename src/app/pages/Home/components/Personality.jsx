@@ -17,7 +17,7 @@ export default function Personality() {
       <Details>
         <List>
           <ListCategory>OTHERS DESCRIBE ME AS</ListCategory>
-          <ListItem>fun, patient and kind </ListItem>
+          <ListItem>fun, reliable and kind </ListItem>
           <ListItem>
             a capable <Highlighter>learner</Highlighter> to new things, an
             excellent <Highlighter>adapter</Highlighter> to a new environment.
