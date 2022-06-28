@@ -1,6 +1,7 @@
 import { Wrapper, Heading, List, Paragraph } from "app/components";
 import Profile from "app/assets/Profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
@@ -29,6 +30,28 @@ export default function Banner() {
             &nbsp; - I would be happy to hear from you and have a chat.
           </Paragraph>
         </List>
+        <div className="flex gap-4 mt-4">
+          <a
+            href="https://www.linkedin.com/in/miao-zhao-d/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedinIn}
+              className="text-gray-500 hover:text-green-500"
+            />
+          </a>
+          <a
+            href="https://github.com/miaozhaod"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              className=" text-gray-500 hover:text-green-500"
+            />{" "}
+          </a>
+        </div>
       </div>
     </Wrapper>
   );
