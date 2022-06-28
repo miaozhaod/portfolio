@@ -1,6 +1,7 @@
 import { Wrapper, SubHeading, Paragraph } from "app/components";
 import {
   ProjectTitle,
+  ProjectTime,
   ProjectCard,
   ProjectImage,
   ProjectDescription,
@@ -19,6 +20,7 @@ export default function CraftExample() {
           aiming to help LG’s air purifier products to win in the “smoggy
           economy“ in China targeting at Chinese new middle-class customers.
         </Paragraph>
+        <ProjectTime>2016</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage src={UxImg} alt="UX LG" />

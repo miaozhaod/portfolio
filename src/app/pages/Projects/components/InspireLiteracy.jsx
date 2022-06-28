@@ -1,6 +1,7 @@
 import { Wrapper, SubHeading, Paragraph } from "app/components";
 import {
   ProjectTitle,
+  ProjectTime,
   ProjectCard,
   ProjectImage,
   ProjectDescription,
@@ -18,6 +19,7 @@ export default function InspireLiteracy() {
           A web page dedicated to allowing the client to advertise their
           business of Multisensory Structural Language Education
         </Paragraph>
+        <ProjectTime>2019 Nov</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

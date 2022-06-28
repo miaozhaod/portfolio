@@ -1,6 +1,7 @@
 import { Wrapper, SubHeading, Paragraph } from "app/components";
 import {
   ProjectTitle,
+  ProjectTime,
   ProjectCard,
   ProjectImage,
   ProjectDescription,
@@ -18,6 +19,7 @@ export default function GreatPhermesia() {
           A community management platform for a North-America Minecraft realm,
           intended for a player base estimated at 300 to share content
         </Paragraph>
+        <ProjectTime>2021 Sep - Nov</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

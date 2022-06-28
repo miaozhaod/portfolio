@@ -1,6 +1,7 @@
 import { Wrapper, SubHeading, Paragraph } from "app/components";
 import {
   ProjectTitle,
+  ProjectTime,
   ProjectCard,
   ProjectImage,
   ProjectDescription,
@@ -15,6 +16,7 @@ export default function WeatherApp() {
       <ProjectTitle>
         <SubHeading>MY CITIES</SubHeading>
         <Paragraph>A personal Weather APP</Paragraph>
+        <ProjectTime>2021 Aug</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

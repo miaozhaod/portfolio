@@ -1,6 +1,7 @@
 import { Wrapper, SubHeading, Paragraph } from "app/components";
 import {
   ProjectTitle,
+  ProjectTime,
   ProjectCard,
   ProjectImage,
   ProjectDescription,
@@ -15,6 +16,7 @@ export default function PortfolioApp() {
       <ProjectTitle>
         <SubHeading>MY SITE</SubHeading>
         <Paragraph>My personal portfolio</Paragraph>
+        <ProjectTime>2021 Sep</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage
