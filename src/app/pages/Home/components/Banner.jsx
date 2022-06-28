@@ -14,11 +14,12 @@ export default function Banner() {
         <Heading>Welcome ! I'm Miao </Heading>
         <List>
           <Paragraph>
-            I am a web developer who enjoys creating clean and easy-to-use
-            things.
+            I am a full-stack developer who enjoys writing clean codes and
+            creating easy-to-use interfaces.
           </Paragraph>
           <Paragraph>
-            I enjoy the process to make design alive through the development
+            With a background in UX, I enjoy the process to make design alive
+            through coding
           </Paragraph>
           <Paragraph>
             Please feel free to look around, or hit the &nbsp;
