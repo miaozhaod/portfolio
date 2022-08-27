@@ -15,8 +15,12 @@ export default function AComosus() {
     <Wrapper id="react">
       <ProjectTitle>
         <SubHeading>A Comosus</SubHeading>
-        <Paragraph>A replica of linktree</Paragraph>
-        <ProjectTime>2022 May - Present</ProjectTime>
+        <Paragraph>
+          This project aimed to create a personalized profile-sharing web
+          application. Users could add links from different social media and
+          personal websites to personalize their profiles.
+        </Paragraph>
+        <ProjectTime>2022 May - 2022 August</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage
@@ -26,7 +30,7 @@ export default function AComosus() {
         />
         <ProjectDescription>
           <Paragraph>
-            As a Full-stack Developer, I am working closely with the DevOps,
+            As a Full-stack Developer, I was working closely with the DevOps,
             Business Analysts and UX Designers to deliver in an agile
             environment.
           </Paragraph>
