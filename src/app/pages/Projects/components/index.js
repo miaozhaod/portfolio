@@ -4,3 +4,4 @@ export { default as GreatPhermesia } from "./GreatPhermesia";
 export { default as InspireLiteracy } from "./InspireLiteracy";
 export { default as UxLg } from "./UxLg";
 export { default as AComosus } from "./AComosus";
+export { default as PixelFoto } from "./PixelFoto";

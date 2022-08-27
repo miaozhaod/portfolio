@@ -1,20 +1,20 @@
 import React from "react";
 import {
   WeatherApp,
-  PortfolioApp,
   GreatPhermesia,
   InspireLiteracy,
   UxLg,
   AComosus,
+  PixelFoto,
 } from "./components";
 import { Container, ScrollToTopButton } from "app/components";
 
 export default function Projects() {
   const projects = [
+    <PixelFoto />,
     <AComosus />,
     <GreatPhermesia />,
     <WeatherApp />,
-    <PortfolioApp />,
     <InspireLiteracy />,
     <UxLg />,
   ];
