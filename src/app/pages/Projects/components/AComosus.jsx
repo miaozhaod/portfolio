@@ -28,14 +28,15 @@ export default function AComosus() {
           <Paragraph>
             As a Full-stack Developer, I am working closely with the DevOps,
             Business Analysts and UX Designers to deliver in an agile
-            environment
+            environment.
           </Paragraph>
           <ProjectTools href="https://uat.a-comosus.link/">
             <Tag>TypeScript</Tag>
             <Tag>NextJS</Tag>
             <Tag>NestJS</Tag>
             <Tag>GraphQL API</Tag>
-            <Tag>Jest</Tag>
+            <Tag>Serverless Framework</Tag>
+            <Tag>AWS Lambda</Tag>
           </ProjectTools>
         </ProjectDescription>
       </ProjectCard>
