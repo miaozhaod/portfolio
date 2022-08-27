@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e025afa3.chunk.css",
-    "main.js": "/portfolio/static/js/main.4c816174.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4c816174.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d36bf376.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d36bf376.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.31bdfa2c.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.31bdfa2c.js.map",
     "static/css/2.8daa2e3e.chunk.css": "/portfolio/static/css/2.8daa2e3e.chunk.css",
@@ -12,8 +12,9 @@
     "static/css/2.8daa2e3e.chunk.css.map": "/portfolio/static/css/2.8daa2e3e.chunk.css.map",
     "static/css/main.e025afa3.chunk.css.map": "/portfolio/static/css/main.e025afa3.chunk.css.map",
     "static/js/2.02a2e3f0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.02a2e3f0.chunk.js.LICENSE.txt",
+    "static/media/PixelFoto.936531c8.png": "/portfolio/static/media/PixelFoto.936531c8.png",
     "static/media/Profile.441d9d0b.jpg": "/portfolio/static/media/Profile.441d9d0b.jpg",
-    "static/media/a-comosus.7962878d.png": "/portfolio/static/media/a-comosus.7962878d.png",
+    "static/media/a-comosus.550baf47.png": "/portfolio/static/media/a-comosus.550baf47.png",
     "static/media/craft-example.59507835.png": "/portfolio/static/media/craft-example.59507835.png",
     "static/media/great-phermesia.03a78369.png": "/portfolio/static/media/great-phermesia.03a78369.png",
     "static/media/lg-air-sketches.d66a86e8.jpeg": "/portfolio/static/media/lg-air-sketches.d66a86e8.jpeg",
@@ -25,6 +26,6 @@
     "static/css/2.8daa2e3e.chunk.css",
     "static/js/2.02a2e3f0.chunk.js",
     "static/css/main.e025afa3.chunk.css",
-    "static/js/main.4c816174.chunk.js"
+    "static/js/main.d36bf376.chunk.js"
   ]
 }
