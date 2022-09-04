@@ -32,7 +32,7 @@ export default function Banner() {
         </List>
         <div className="flex gap-4 mt-4">
           <a
-            href="https://www.linkedin.com/in/miao-zhao-d/"
+            href="https://www.linkedin.com/in/miaozhaod/"
             rel="noreferrer"
             target="_blank"
           >
