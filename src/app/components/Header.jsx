@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import Logo from "app/assets/logo.svg";
 
 export default function Header() {
   const [display, setDisplay] = useState("hidden");
+  const { pathname } = useLocation();
 
   const handleBarsClick = () => {
     display === "hidden" ? setDisplay("block") : setDisplay("hidden");
@@ -21,18 +24,43 @@ export default function Header() {
           className="mr-auto font-semibold"
           onClick={controlDisplayAfterSelectMenuOption}
         >
-          <Link to="/">MIAO ZHAO</Link>
+          <Link to="/">
+            <img src={Logo} alt="logo" className="h-6" />
+          </Link>
         </div>
         <nav className="hidden sm:block">
           <ul className="flex gap-10">
             <li className="font-extralight">
+              <Link to="/">
+                <span
+                  className={`transition duration-1000 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
+                    pathname === "/"
+                      ? "text-green-500 border-b-2 border-green-500"
+                      : ""
+                  }`}
+                >
+                  Home
+                </span>
+              </Link>
+            </li>
+            <li className="font-extralight">
               <Link to="/projects">
-                <span className="transition duration-200 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500">
+                <span
+                  className={`transition duration-1000 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
+                    pathname === "/projects"
+                      ? "text-green-500 border-b-2 border-green-500"
+                      : ""
+                  }`}
+                >
                   Projects
                 </span>
               </Link>
             </li>
-            <li className="hover:text-green-500">
+            <li
+              className={`hover:text-green-500 ${
+                pathname === "/contact" ? "text-green-500 " : ""
+              }`}
+            >
               <Link to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} />
               </Link>
