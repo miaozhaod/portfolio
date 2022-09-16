@@ -50,7 +50,7 @@ export default function Banner() {
             />{" "}
           </a>
         </div>
-        <button className="bg-green-400 text-white py-2 px-3 rounded-lg mt-4 duration-1000 hover:shadow-lg">
+        <button className="bg-green-500 text-white text-sm py-2 px-3 rounded-lg mt-4 duration-1000 hover:shadow-lg">
           View my projects
         </button>
       </div>
