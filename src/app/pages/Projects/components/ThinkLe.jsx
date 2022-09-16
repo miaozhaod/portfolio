@@ -14,7 +14,7 @@ export default function PixelFoto() {
   return (
     <Wrapper id="react">
       <ProjectTitle>
-        <SubHeading>PixelFoto</SubHeading>
+        <SubHeading>ThinkLe</SubHeading>
         <ProjectTime>2022 August - 2022 Sepetember</ProjectTime>
         <Paragraph>
           As part of the 2022 She Codes Australia Plus program, six freshly
