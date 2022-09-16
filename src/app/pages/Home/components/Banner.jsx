@@ -14,13 +14,11 @@ export default function Banner() {
       <div className="flex flex-col items-center text-center md:items-start md:text-left w-full md:w-3/4">
         <Heading>Welcome ! I'm Miao </Heading>
         <List>
+          <Paragraph>I am a developer who designs.</Paragraph>
           <Paragraph>
-            I am a full-stack developer who enjoys writing clean codes and
-            creating easy-to-use interfaces.
-          </Paragraph>
-          <Paragraph>
-            With a background in UX, I enjoy the process to make design alive
-            through coding
+            I revel every moment a feature is fulfilled, a bug is fixed, a
+            codebase is optimised, a UI is becoming more user-friendly, or a new
+            skill is mastered.
           </Paragraph>
           <Paragraph>
             Please feel free to look around, or hit the &nbsp;
@@ -38,7 +36,7 @@ export default function Banner() {
           >
             <FontAwesomeIcon
               icon={faLinkedinIn}
-              className="text-gray-500 hover:text-green-500"
+              className="text-gray-500 text-xl duration-1000 hover:text-green-500 "
             />
           </a>
           <a
@@ -48,10 +46,13 @@ export default function Banner() {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              className=" text-gray-500 hover:text-green-500"
+              className=" text-gray-500 text-xl duration-1000 hover:text-green-500"
             />{" "}
           </a>
         </div>
+        <button className="bg-green-400 text-white py-2 px-3 rounded-lg mt-4 duration-1000 hover:shadow-lg">
+          View my projects
+        </button>
       </div>
     </Wrapper>
   );
