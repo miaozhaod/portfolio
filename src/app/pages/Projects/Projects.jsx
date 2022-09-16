@@ -6,14 +6,16 @@ import {
   UxLg,
   AComosus,
   PixelFoto,
+  ThinkLe,
 } from "./components";
 import { Container, ScrollToTopButton } from "app/components";
 
 export default function Projects() {
   const projects = [
+    <ThinkLe />,
     <PixelFoto />,
     <AComosus />,
-    <GreatPhermesia />,
+    // <GreatPhermesia />,
     <WeatherApp />,
     <InspireLiteracy />,
     <UxLg />,
