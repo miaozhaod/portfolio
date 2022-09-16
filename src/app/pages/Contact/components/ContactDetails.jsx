@@ -19,7 +19,7 @@ export default function ContactDetails() {
       <div className="flex flex-wrap gap-5">
         <div className="flex flex-col items-center justify-center w-8 h-8 border border-green-500 text-green-500 rounded-full">
           <a
-            href="https://www.linkedin.com/in/miao-zhao-d/"
+            href="https://www.linkedin.com/in/miaozhaod/"
             rel="noreferrer"
             target="_blank"
           >
