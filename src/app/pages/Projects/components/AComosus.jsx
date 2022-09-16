@@ -15,12 +15,12 @@ export default function AComosus() {
     <Wrapper id="react">
       <ProjectTitle>
         <SubHeading>A Comosus</SubHeading>
+        <ProjectTime>2022 May - 2022 August</ProjectTime>
         <Paragraph>
           This project aimed to create a personalized profile-sharing web
           application. Users could add links from different social media and
           personal websites to personalize their profiles.
         </Paragraph>
-        <ProjectTime>2022 May - 2022 August</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

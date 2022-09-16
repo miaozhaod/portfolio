@@ -15,8 +15,8 @@ export default function PortfolioApp() {
     <Wrapper>
       <ProjectTitle>
         <SubHeading>MY SITE</SubHeading>
-        <Paragraph>My personal portfolio</Paragraph>
         <ProjectTime>2021 Sep</ProjectTime>
+        <Paragraph>My personal portfolio</Paragraph>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

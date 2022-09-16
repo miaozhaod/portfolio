@@ -15,12 +15,12 @@ export default function PixelFoto() {
     <Wrapper id="react">
       <ProjectTitle>
         <SubHeading>PixelFoto</SubHeading>
+        <ProjectTime>2022 June - 2022 August</ProjectTime>
         <Paragraph>
           This project is from my She Codes Plus study. I developed a
           crowdfunding platform to support photographers to open exhibitions, to
           share their works, and get to grow.
         </Paragraph>
-        <ProjectTime>2022 June - 2022 August</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage
@@ -37,7 +37,7 @@ export default function PixelFoto() {
             <Tag>ReactJS</Tag>
             <Tag>React Router DOM</Tag>
             <Tag>Restfull API</Tag>
-            <Tag>Django Rest Frameworkd</Tag>
+            <Tag>Django Rest Framework</Tag>
           </ProjectTools>
         </ProjectDescription>
       </ProjectCard>

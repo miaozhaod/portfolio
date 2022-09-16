@@ -15,11 +15,11 @@ export default function InspireLiteracy() {
     <Wrapper id="craft">
       <ProjectTitle>
         <SubHeading>Inspire Literacy</SubHeading>
+        <ProjectTime>2019 Nov</ProjectTime>
         <Paragraph>
           A web page dedicated to allowing the client to advertise their
           business of Multisensory Structural Language Education
         </Paragraph>
-        <ProjectTime>2019 Nov</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

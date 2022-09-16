@@ -15,12 +15,12 @@ export default function CraftExample() {
     <Wrapper id="craft">
       <ProjectTitle>
         <SubHeading>Air Purifier | LG China</SubHeading>
+        <ProjectTime>2016</ProjectTime>
         <Paragraph>
           A project originated from the severe air pollution issue in China
           aiming to help LG’s air purifier products to win in the “smoggy
           economy“ in China targeting at Chinese new middle-class customers.
         </Paragraph>
-        <ProjectTime>2016</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage src={UxImg} alt="UX LG" />

@@ -15,8 +15,8 @@ export default function WeatherApp() {
     <Wrapper>
       <ProjectTitle>
         <SubHeading>MY CITIES</SubHeading>
+        <ProjectTime>2021 August</ProjectTime>
         <Paragraph>A personal Weather APP</Paragraph>
-        <ProjectTime>2021 Aug</ProjectTime>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage
