@@ -3,7 +3,7 @@ import { Banner, Profession, Personality, Pasttime } from "./components";
 import { Container, ScrollToTopButton } from "app/components";
 
 export default function Home() {
-  const descriptions = [<Profession />, <Personality />, <Pasttime />];
+  const descriptions = [<Profession />, <Pasttime />, <Personality />];
 
   return (
     <Container>
