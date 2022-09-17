@@ -22,8 +22,8 @@ export default function AComosus() {
           profiles.
         </Paragraph> */}
         <Paragraph>
-          😴 This project has stopped maintenance, some Lambda functions's API
-          Gateway endpoint is not working in the{" "}
+          😴 This project has stopped maintenance, some Lambda functions' API
+          endpoints are not working in the{" "}
           <a
             href="https://uat.a-comosus.link/"
             target="_blank"
@@ -32,7 +32,7 @@ export default function AComosus() {
           >
             live site
           </a>
-          , please be patient and play around in:
+          , please play around at:
         </Paragraph>{" "}
         <a
           href="localhost:3000"
