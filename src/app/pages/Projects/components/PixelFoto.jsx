@@ -38,13 +38,12 @@ export default function PixelFoto() {
         />
         <ProjectDescription>
           <Paragraph>
-            As a Full-stack Developer, followed the She Codes mentors' guidance,
-            I created the REST APIs in Django Rest Framework, and implemented
-            the frontend UI through ReactJS.
+            As a Full-stack Developer, with the She Codes mentors' guidance, I
+            created the REST APIs in Django Rest Framework, and implemented the
+            frontend UI through ReactJS.
           </Paragraph>
           <ProjectTools href="https://pacific-reaches-34630.herokuapp.com/">
             <Tag>ReactJS</Tag>
-            <Tag>React Router DOM</Tag>
             <Tag>CSS3</Tag>
             <Tag>Restful API</Tag>
             <Tag>Django Rest Framework</Tag>

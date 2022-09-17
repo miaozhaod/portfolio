@@ -46,7 +46,6 @@ export default function PixelFoto() {
           </Paragraph>
           <ProjectTools href="https://guarded-beyond-50913.herokuapp.com/">
             <Tag>ReactJS</Tag>
-            <Tag>React Router DOM</Tag>
             <Tag>CSS3</Tag>
             <Tag>Restful API</Tag>
             <Tag>Django Rest Framework</Tag>

@@ -14,9 +14,9 @@ export default function WeatherApp() {
   return (
     <Wrapper>
       <ProjectTitle>
-        <SubHeading>MY CITIES</SubHeading>
+        <SubHeading>A personal Weather APP</SubHeading>
         <ProjectTime>2021 August</ProjectTime>
-        <Paragraph>A personal Weather APP</Paragraph>
+        {/* <Paragraph>A personal Weather APP</Paragraph> */}
         <a
           href="https://miaozhaod.github.io/weatherapp/"
           target="_blank"
@@ -34,13 +34,13 @@ export default function WeatherApp() {
         />
         <ProjectDescription>
           <Paragraph>
-            A web app aims to fetch the weather data from OpenWeatherAPI and
-            render the current and forecast weather by changing the states via
-            React Hook for four cities I have connections.
+            My first React APP, aimed to fetch the weather data from
+            OpenWeatherAPI and render the current and forecast weather by
+            changing the states via React Hook for four cities I have ever lived
+            in.
           </Paragraph>
           <ProjectTools href="https://miaozhaod.github.io/weatherapp/">
-            <Tag>React</Tag>
-            <Tag>React Hook</Tag>
+            <Tag>ReactJS</Tag>
             <Tag>TailwindCSS</Tag>
           </ProjectTools>
         </ProjectDescription>
