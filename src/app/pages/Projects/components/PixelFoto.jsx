@@ -16,10 +16,10 @@ export default function PixelFoto() {
       <ProjectTitle>
         <SubHeading>PixelFoto</SubHeading>
         <ProjectTime>2022 June - 2022 August</ProjectTime>
+        <ProjectTime>She Codes Individual Project</ProjectTime>
         <Paragraph>
-          This project is from my She Codes Plus study. I developed a
-          crowdfunding platform to support photographers to open exhibitions, to
-          share their works, and get to grow.
+          A crowdfunding platform to support photographers to open their
+          exhibitions and to share their works.
         </Paragraph>
         <a
           href="https://pacific-reaches-34630.herokuapp.com/"
@@ -38,14 +38,17 @@ export default function PixelFoto() {
         />
         <ProjectDescription>
           <Paragraph>
-            As a Full-stack Developer, I created the rest APIs in Django Rest
-            Framework, and implemented the frontend UI through ReactJS.
+            As a Full-stack Developer, followed the She Codes mentors' guidance,
+            I created the REST APIs in Django Rest Framework, and implemented
+            the frontend UI through ReactJS.
           </Paragraph>
           <ProjectTools href="https://pacific-reaches-34630.herokuapp.com/">
             <Tag>ReactJS</Tag>
             <Tag>React Router DOM</Tag>
-            <Tag>Restfull API</Tag>
+            <Tag>CSS3</Tag>
+            <Tag>Restful API</Tag>
             <Tag>Django Rest Framework</Tag>
+            <Tag>PostgreSQL</Tag>
           </ProjectTools>
         </ProjectDescription>
       </ProjectCard>
