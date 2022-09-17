@@ -33,10 +33,8 @@ export default function Header() {
             <li className="font-extralight">
               <Link to="/">
                 <span
-                  className={`transition duration-1000 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
-                    pathname === "/"
-                      ? "text-green-500 border-b-2 border-green-500"
-                      : ""
+                  className={`transition duration-500 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
+                    pathname === "/" ? "text-green-500" : ""
                   }`}
                 >
                   Home
@@ -46,10 +44,8 @@ export default function Header() {
             <li className="font-extralight">
               <Link to="/projects">
                 <span
-                  className={`transition duration-1000 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
-                    pathname === "/projects"
-                      ? "text-green-500 border-b-2 border-green-500"
-                      : ""
+                  className={`transition duration-500 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
+                    pathname === "/projects" ? "text-green-500" : ""
                   }`}
                 >
                   Projects
