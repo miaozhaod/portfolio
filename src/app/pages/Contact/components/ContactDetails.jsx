@@ -10,10 +10,10 @@ export default function ContactDetails() {
       <div className="py-4">
         <Paragraph>Brsibane QLD 4000 AU</Paragraph>
         <a
-          href="mailto:miao_zhao@yahoo.com?subject = Feedback&body = Message"
+          href="mailto:miao.zhao.d@gmail.com?subject = Feedback&body = Message"
           className="font-extralight tracking-wide leading-7 text-gray-600 hover:text-green-500"
         >
-          miao_zhao@yahoo.com
+          miao.zhao.d@gmail.com
         </a>
       </div>
       <div className="flex flex-wrap gap-5">
