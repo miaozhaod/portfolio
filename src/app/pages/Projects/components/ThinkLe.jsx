@@ -16,11 +16,10 @@ export default function PixelFoto() {
       <ProjectTitle>
         <SubHeading>ThinkLe</SubHeading>
         <ProjectTime>2022 August - 2022 Sepetember</ProjectTime>
+        <ProjectTime>She Codes Group Project</ProjectTime>
         <Paragraph>
-          As part of the 2022 She Codes Australia Plus program, six freshly
-          minted developers were tasked with the challenge of creating a product
-          that would serve the tech community. The aim of Thinkle is to connect
-          workshop organisers and mentors all in the one convienient location.
+          The aim of Thinkle is to connect workshop organisers and mentors all
+          in the one convienient location.
         </Paragraph>
         <a
           href="https://guarded-beyond-50913.herokuapp.com/"
@@ -39,15 +38,19 @@ export default function PixelFoto() {
         />
         <ProjectDescription>
           <Paragraph>
-            As a Frontend Developer, I setted up the project structure with
-            common components and modules aligned to our pages, and built up the
-            UI components in ReactJS, utlised fetch to interact with API.
+            As a Frontend Developer, I designed and planned the project in
+            Figma, and setted up the frontend project structure with common
+            components and modules aligned to our pages, and built up the UI
+            components in ReactJS, used CSS3 for the styles and responsive
+            design, utlised Fetch API to interact with backend RESTful API.
           </Paragraph>
           <ProjectTools href="https://guarded-beyond-50913.herokuapp.com/">
             <Tag>ReactJS</Tag>
             <Tag>React Router DOM</Tag>
-            <Tag>Restfull API</Tag>
+            <Tag>CSS3</Tag>
+            <Tag>Restful API</Tag>
             <Tag>Django Rest Framework</Tag>
+            <Tag>PostgreSQL</Tag>
           </ProjectTools>
         </ProjectDescription>
       </ProjectCard>
