@@ -7,7 +7,7 @@ import {
   ProjectDescription,
   ProjectTools,
   Tag,
-} from "./components";
+} from "../components";
 import GreatPhermesiaImg from "app/assets/great-phermesia.png";
 
 export default function GreatPhermesia() {

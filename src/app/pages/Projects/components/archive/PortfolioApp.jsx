@@ -7,7 +7,7 @@ import {
   ProjectDescription,
   ProjectTools,
   Tag,
-} from "./components";
+} from "../components";
 import PortfolioImg from "app/assets/portfolio-app.png";
 
 export default function PortfolioApp() {

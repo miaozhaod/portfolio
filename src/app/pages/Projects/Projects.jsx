@@ -1,7 +1,6 @@
 import React from "react";
 import {
   WeatherApp,
-  GreatPhermesia,
   InspireLiteracy,
   UxLg,
   AComosus,
@@ -15,7 +14,6 @@ export default function Projects() {
     <ThinkLe />,
     <PixelFoto />,
     <AComosus />,
-    // <GreatPhermesia />,
     <WeatherApp />,
     <InspireLiteracy />,
     <UxLg />,
