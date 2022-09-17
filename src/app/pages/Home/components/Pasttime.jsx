@@ -16,13 +16,10 @@ export default function Pasttime() {
       <Details>
         <List>
           <ListItem>
-            I love digital drawing and painting -{" "}
-            <Highlighter>Procreate</Highlighter> is my favourite!
+            🎨 I love watercolors, acrylics, and digital arts.
           </ListItem>
-          <ListItem>I like hiking and travelling.</ListItem>
-          <ListItem>
-            I also enjoy a catch-up time with friends having a cuppa.{" "}
-          </ListItem>
+          <ListItem>🌏 I like exploring the beauty of the world.</ListItem>
+          <ListItem>☕️ I also enjoy a catch-up time with friends. </ListItem>
         </List>
       </Details>
     </Wrapper>
