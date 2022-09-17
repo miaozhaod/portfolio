@@ -1,5 +1,5 @@
 import { Wrapper, Heading, List, Paragraph } from "app/components";
-import Profile from "app/assets/Profile.jpg";
+import Profile from "app/assets/profile-she-codes.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -8,20 +8,26 @@ import { Link } from "react-router-dom";
 export default function Banner() {
   return (
     <Wrapper align="items-center" gap="gap-10">
-      <div className="w-1/2 md:w-1/4 md:max-w-7xl">
-        <img src={Profile} alt="profile" className="rounded-full" />
+      <div className="d-flex items-center w-1/2 md:w-1/4 md:max-w-7xl">
+        <div className="w-52 h-52 mr-auto ml-auto md:mr-auto md:ml-0">
+          <img
+            src={Profile}
+            alt="profile"
+            className="w-full h-full rounded-full object-cover"
+          />
+        </div>
       </div>
       <div className="flex flex-col items-center text-center md:items-start md:text-left w-full md:w-3/4">
-        <Heading>Welcome ! I'm Miao </Heading>
+        <Heading>I'm Miao 👋 </Heading>
         <List>
-          <Paragraph>I am a developer who designs.</Paragraph>
+          <Paragraph>👩‍💻 I am a developer who designs.</Paragraph>
           <Paragraph>
-            I revel every moment a feature is fulfilled, a bug is fixed, a
+            🥰 I revel every moment a feature is fulfilled, a bug is fixed, a
             codebase is optimised, a UI is becoming more user-friendly, or a new
             skill is mastered.
           </Paragraph>
           <Paragraph>
-            Please feel free to look around, or hit the &nbsp;
+            📧 Please feel free to look around, or hit the &nbsp;
             <Link to="/contact">
               <FontAwesomeIcon icon={faEnvelope} className="text-green-500" />
             </Link>
