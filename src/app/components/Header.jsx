@@ -48,7 +48,18 @@ export default function Header() {
                     pathname === "/projects" ? "text-green-500" : ""
                   }`}
                 >
-                  Projects
+                  Web Projects
+                </span>
+              </Link>
+            </li>
+            <li className="font-extralight">
+              <Link to="/arts">
+                <span
+                  className={`transition duration-500 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
+                    pathname === "/arts" ? "text-green-500" : ""
+                  }`}
+                >
+                  Arts
                 </span>
               </Link>
             </li>
