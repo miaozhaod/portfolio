@@ -23,7 +23,8 @@ export default function AComosus() {
         </Paragraph> */}
         <Paragraph>
           😴 This project has stopped maintenance, some Lambda functions' API
-          endpoints are not working in the{" "}
+          endpoints are not working in the live sie, you can still look around
+          the{" "}
           <a
             href="https://uat.a-comosus.link/"
             target="_blank"
@@ -32,16 +33,17 @@ export default function AComosus() {
           >
             live site
           </a>
-          , please play around at:
+          , but to register and play around, Miao is happy to walk you through
+          in her{" "}
+          <a
+            href="localhost:3000"
+            target="_blank"
+            rel="noreferrer"
+            className="text-green-500"
+          >
+            <b>local environment</b>
+          </a>
         </Paragraph>{" "}
-        <a
-          href="localhost:3000"
-          target="_blank"
-          rel="noreferrer"
-          className="text-green-500"
-        >
-          localhost:3000
-        </a>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage
@@ -51,14 +53,15 @@ export default function AComosus() {
         />
         <ProjectDescription>
           <Paragraph>
-            As a Full-stack Developer, I was focusing on improving my backend
-            skills and exploring some AWS services - Lambda, API Gateway, and S3
-            Bucket in this project.
+            As a Full-stack Developer, I worked on this project with some other
+            guys and girls to mess around with web techs. I was focusing on
+            improving my backend skills and exploring some AWS services - Lambda
+            functions, API Gateway, and S3 Bucket.
           </Paragraph>
           <Paragraph>
             I implemented the user verification process and forget password flow
             through Lambda function to send emails via nodemailer, and achieved
-            the user avatar update through uploading the file to S3 bucket
+            the user avatar update through uploading the file to S3 bucket.
           </Paragraph>
           <ProjectTools href="https://uat.a-comosus.link/">
             <Tag>NextJS</Tag>
