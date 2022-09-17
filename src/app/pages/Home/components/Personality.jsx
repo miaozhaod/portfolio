@@ -17,15 +17,14 @@ export default function Personality() {
       <Details>
         <List>
           <ListCategory>OTHERS DESCRIBE ME AS</ListCategory>
-          <ListItem>fun, reliable and kind </ListItem>
+          <ListItem>reliable, nice and fun</ListItem>
           <ListItem>
-            a capable <Highlighter>learner</Highlighter> to new things, an
-            excellent <Highlighter>adapter</Highlighter> to a new environment.
+            a capable <Highlighter>learner</Highlighter> to new skills, an
+            excellent <Highlighter>adapter</Highlighter> to new environment.
           </ListItem>
           <ListCategory>I STRIVE TO BE</ListCategory>
-          <ListItem>humble </ListItem>
           <ListItem>
-            supportive and <Highlighter>helpful to others</Highlighter>
+            <Highlighter>humble and helpful</Highlighter> to others
           </ListItem>
         </List>
       </Details>
