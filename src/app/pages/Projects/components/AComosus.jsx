@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Wrapper, SubHeading, Paragraph } from "app/components";
 import {
   ProjectTitle,
@@ -21,6 +22,14 @@ export default function AComosus() {
           application. Users could add links from different social media and
           personal websites to personalize their profiles.
         </Paragraph>
+        <a
+          href="https://uat.a-comosus.link/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-green-500"
+        >
+          View the site
+        </a>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

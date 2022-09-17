@@ -20,6 +20,14 @@ export default function InspireLiteracy() {
           A web page dedicated to allowing the client to advertise their
           business of Multisensory Structural Language Education
         </Paragraph>
+        <a
+          href="https://inspireliteracy.com.au/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-green-500"
+        >
+          View the site
+        </a>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

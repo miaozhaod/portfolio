@@ -17,6 +17,14 @@ export default function WeatherApp() {
         <SubHeading>MY CITIES</SubHeading>
         <ProjectTime>2021 August</ProjectTime>
         <Paragraph>A personal Weather APP</Paragraph>
+        <a
+          href="https://miaozhaod.github.io/weatherapp/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-green-500"
+        >
+          View the site
+        </a>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

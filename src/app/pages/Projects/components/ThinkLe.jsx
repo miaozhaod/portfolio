@@ -22,6 +22,14 @@ export default function PixelFoto() {
           that would serve the tech community. The aim of Thinkle is to connect
           workshop organisers and mentors all in the one convienient location.
         </Paragraph>
+        <a
+          href="https://guarded-beyond-50913.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-green-500"
+        >
+          View the site
+        </a>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage

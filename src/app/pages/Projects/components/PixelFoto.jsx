@@ -21,6 +21,14 @@ export default function PixelFoto() {
           crowdfunding platform to support photographers to open exhibitions, to
           share their works, and get to grow.
         </Paragraph>
+        <a
+          href="https://pacific-reaches-34630.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-green-500"
+        >
+          View the site
+        </a>
       </ProjectTitle>
       <ProjectCard>
         <ProjectImage
