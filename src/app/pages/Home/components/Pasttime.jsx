@@ -1,10 +1,5 @@
-import {
-  Wrapper,
-  SubHeading,
-  List,
-  ListItem,
-  Highlighter,
-} from "app/components";
+import { Link } from "react-router-dom";
+import { Wrapper, SubHeading, List, ListItem } from "app/components";
 import { Details, Title } from "./components";
 
 export default function Pasttime() {
@@ -21,6 +16,11 @@ export default function Pasttime() {
           <ListItem>🌏 I like exploring the beauty of the world.</ListItem>
           <ListItem>☕️ I also enjoy a catch-up time with friends. </ListItem>
         </List>
+        <Link to="/arts">
+          <button className="bg-green-500 text-white text-sm py-2 px-3 rounded-lg mt-4 duration-1000 hover:shadow-lg">
+            View my artworks
+          </button>
+        </Link>
       </Details>
     </Wrapper>
   );
