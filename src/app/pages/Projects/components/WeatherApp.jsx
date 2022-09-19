@@ -42,6 +42,7 @@ export default function WeatherApp() {
           <ProjectTools href="https://miaozhaod.github.io/weatherapp/">
             <Tag>ReactJS</Tag>
             <Tag>TailwindCSS</Tag>
+            <Tag>OpenWeather API</Tag>
           </ProjectTools>
         </ProjectDescription>
       </ProjectCard>
