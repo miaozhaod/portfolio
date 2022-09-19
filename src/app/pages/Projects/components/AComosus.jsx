@@ -56,7 +56,8 @@ export default function AComosus() {
             As a Full-stack Developer, I worked on this project with some other
             guys and girls to mess around with web techs. I was focusing on
             improving my backend skills and exploring some AWS services - Lambda
-            functions, API Gateway, and S3 Bucket.
+            functions, API Gateway, and S3 Bucket. This is also the first time I
+            touched on testing with Jest Testing Framwork.
           </Paragraph>
           <Paragraph>
             I implemented the user verification process and forget password flow
@@ -70,6 +71,7 @@ export default function AComosus() {
             <Tag>Chakra UI</Tag>
             <Tag>GraphQL API</Tag>
             <Tag>MongoDB</Tag>
+            <Tag>Jest Testing</Tag>
             <Tag>Serverless Framework</Tag>
             <Tag>AWS Lambda</Tag>
             <Tag>AWS API Gateway</Tag>
