@@ -30,7 +30,7 @@ export default function Header() {
         </div>
         <nav className="hidden sm:block">
           <ul className="flex gap-10">
-            <li className="font-extralight">
+            <li className="font-light">
               <Link to="/">
                 <span
                   className={`transition duration-500 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
@@ -41,7 +41,7 @@ export default function Header() {
                 </span>
               </Link>
             </li>
-            <li className="font-extralight">
+            <li className="font-light">
               <Link to="/projects">
                 <span
                   className={`transition duration-500 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
@@ -52,7 +52,7 @@ export default function Header() {
                 </span>
               </Link>
             </li>
-            <li className="font-extralight">
+            <li className="font-light">
               <Link to="/arts">
                 <span
                   className={`transition duration-500 ease-linear pb-7 hover:text-green-500 hover:border-b-2 hover:border-green-500 ${
@@ -83,7 +83,7 @@ export default function Header() {
         >
           <ul className="grid grid-cols-1 divide-y divide-green-300 text-center">
             <li
-              className="font-extralight py-2"
+              className="font-light py-2"
               onClick={controlDisplayAfterSelectMenuOption}
             >
               <Link to="/">
@@ -93,7 +93,7 @@ export default function Header() {
               </Link>
             </li>
             <li
-              className="font-extralight py-2"
+              className="font-light py-2"
               onClick={controlDisplayAfterSelectMenuOption}
             >
               <Link to="/projects">
@@ -103,7 +103,7 @@ export default function Header() {
               </Link>
             </li>
             <li
-              className="font-extralight py-2"
+              className="fontlight py-2"
               onClick={controlDisplayAfterSelectMenuOption}
             >
               <Link to="/arts">
