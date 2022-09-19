@@ -7,6 +7,7 @@ import {
   Highlighter,
 } from "app/components";
 import { Title, Details } from "./components";
+import { Link } from "react-router-dom";
 
 export default function Profession() {
   return (
@@ -18,8 +19,9 @@ export default function Profession() {
         <List>
           <ListCategory>WHO I AM</ListCategory>
           <ListItem>
-            I see myself as a <Highlighter>junior</Highlighter> full-stack
-            developer with a focus on front-end at the moment
+            I see myself as a{" "}
+            <Highlighter>junior full-stack developer</Highlighter> with a focus
+            on front-end at the moment
           </ListItem>
           <ListCategory>WHAT I CAN DO</ListCategory>
           <ListItem>
@@ -48,6 +50,11 @@ export default function Profession() {
             <Highlighter>full-stack developer</Highlighter>.
           </ListItem>
         </List>
+        <Link to="/projects">
+          <button className="border solid border-green-500 text-green-500 text-sm py-2 px-3 rounded-lg mt-4 duration-1000 hover:shadow-lg">
+            View my Web Projects
+          </button>
+        </Link>
       </Details>
     </Wrapper>
   );

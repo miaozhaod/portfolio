@@ -86,9 +86,29 @@ export default function Header() {
               className="font-extralight py-2"
               onClick={controlDisplayAfterSelectMenuOption}
             >
+              <Link to="/">
+                <span className="transition duration-200 ease-linear hover:text-green-500 ">
+                  Home
+                </span>
+              </Link>
+            </li>
+            <li
+              className="font-extralight py-2"
+              onClick={controlDisplayAfterSelectMenuOption}
+            >
               <Link to="/projects">
                 <span className="transition duration-200 ease-linear hover:text-green-500 ">
-                  Projects
+                  Web Projects
+                </span>
+              </Link>
+            </li>
+            <li
+              className="font-extralight py-2"
+              onClick={controlDisplayAfterSelectMenuOption}
+            >
+              <Link to="/arts">
+                <span className="transition duration-200 ease-linear hover:text-green-500 ">
+                  Arts
                 </span>
               </Link>
             </li>

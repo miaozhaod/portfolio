@@ -17,8 +17,8 @@ export default function Pasttime() {
           <ListItem>☕️ I also enjoy a catch-up time with friends. </ListItem>
         </List>
         <Link to="/arts">
-          <button className="bg-green-500 text-white text-sm py-2 px-3 rounded-lg mt-4 duration-1000 hover:shadow-lg">
-            View my artworks
+          <button className="border solid border-green-500 text-green-500 text-sm py-2 px-3 rounded-lg mt-4 duration-1000 hover:shadow-lg">
+            View my Artworks
           </button>
         </Link>
       </Details>
